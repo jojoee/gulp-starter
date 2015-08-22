@@ -2,7 +2,7 @@ var gulp = require( 'gulp' ),
 		connect = require( 'gulp-connect' ),
 		less = require('gulp-less'),
 		sass = require('gulp-sass');
-		compass = require('gulp-compass');
+		// compass = require('gulp-compass')
 
 gulp.task( 'webserver', function() {
 	connect.server({
