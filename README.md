@@ -3,7 +3,13 @@
 
 ## Install
 - `npm install -g gulp`
-- `npm install gulp, gulp-connect, gulp-less, gulp-ruby-sass, gulp-compass`
+- `npm install --save-dev gulp gulp-connect gulp-less gulp-sass`
 
 ## How to use
 `gulp` or `gulp default`
+
+## Reference
+- http://gulpjs.com/plugins/
+
+## TODO
+- add [gulp-compass](https://www.npmjs.com/package/gulp-compass)
