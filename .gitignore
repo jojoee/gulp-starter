@@ -1,2 +1,8 @@
+# Node Modules
 node_modules/
+
+# My Backup Folder
 bk/
+
+# Compiled file
+app/css
