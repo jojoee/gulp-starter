@@ -15,7 +15,10 @@
     "boilerplate",
     "simple",
     "easy",
-    "frontend"
+    "frontend",
+    "template",
+    "static",
+    "builder"
   ],
   "author": "Jojoee",
   "license": "MIT",
