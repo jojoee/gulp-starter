@@ -1,15 +1,14 @@
 # Gulp Starter
-(In Progress) starter gulpfile.js file for frontend that can compile and live reload when less, sass, js, html are changed.
 
-## Install
-- `npm install -g gulp`
-- `npm install --save-dev gulp gulp-connect gulp-less gulp-sass`
+Simple gulp to make frontend life easier (gulp for static site builder)
 
-## How to use
-`gulp` or `gulp default`
-
-## Reference
-- http://gulpjs.com/plugins/
+## Getting Started
+run `npm install` then go `gulp`
 
 ## TODO
-- add [gulp-compass](https://www.npmjs.com/package/gulp-compass)
+- test task
+- separate all related test files into another folder
+- task for production (e.g. clean, if, concat, uglify, etc)
+- starter project / folder structure for other apps (e.g. angular)
+- rewrite it in ES6 way
+- more support (e.g. less, jade, etc)

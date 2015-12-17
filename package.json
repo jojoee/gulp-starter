@@ -1,0 +1,32 @@
+{
+  "name": "gulp-starter",
+  "version": "2.0.0",
+  "description": "Simple gulp to make frontend life easier (gulp for static site builder)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jojoee/gulp-starter.git"
+  },
+  "keywords": [
+    "gulp",
+    "starter",
+    "boilerplate",
+    "simple",
+    "easy",
+    "frontend"
+  ],
+  "author": "Jojoee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jojoee/gulp-starter/issues"
+  },
+  "homepage": "https://github.com/jojoee/gulp-starter#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.1.1"
+  }
+}

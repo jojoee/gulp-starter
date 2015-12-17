@@ -1,0 +1,54 @@
+$accent-color: #03B48D;
+$gray: #7EA2B8;
+$white: #fff
+
+body {
+  font-family: monospace, sans-serif;
+  background-color: $white;
+  font-size: 100%;
+}
+
+p {
+  color: $gray;
+  margin-top: -1em;
+}
+
+.wrapper {
+  text-align: center;
+  margin-top: 15em;
+
+  .title {
+    color: $accent-color;
+    font-weight: bold;
+    font-size: 4em;
+  }  
+}
+
+.test-box {
+  color: $gray;
+  text-align: center;
+
+  .less {
+    
+    &:after {
+      content: 'less compile: -';
+
+    }
+  }
+
+  .sass {
+
+    &:after {
+      content: 'sass compile: ok';
+      color: $accent-color;
+    }
+  }
+
+  .compass {
+
+    &:after {
+      content: 'compass compile: -';
+      
+    }
+  }
+}
