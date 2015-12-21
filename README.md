@@ -16,3 +16,4 @@ Run `npm install` then go `gulp`
 - [ ] More support (e.g. less, jade, etc)
 - [ ] Test `Gulp` tasks
 - [ ] Add bower
+- [ ] Add .jshintrc
