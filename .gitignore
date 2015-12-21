@@ -1,11 +1,13 @@
-# Node Modules
-node_modules/
+# dependency
+node_modules
+components
 
-# My Backup Folder
-bk/
+# backup and note
+bk
+README2.md
 
-# Compiled file
+# tested file
 app/css
 
-# My Note
-README2.md
+# design
+*.psd
