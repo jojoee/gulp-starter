@@ -1,0 +1,36 @@
+{
+  "name": "gulp-starter",
+  "description": "Simple gulp to make frontend life easier (gulp for static site builder)",
+  "main": "",
+  "authors": [
+    "Nathachai Thongniran"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "starter",
+    "boilerplate",
+    "simple",
+    "easy",
+    "frontend",
+    "template",
+    "static",
+    "builder"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "lodash": "~3.10.1",
+    "font-awesome": "~4.5.0"
+  }
+}

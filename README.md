@@ -15,5 +15,5 @@ Run `npm install` then go `gulp`
 - [ ] Rewrite it in ES6 way
 - [ ] More support (e.g. less, jade, etc)
 - [ ] Test `Gulp` tasks
-- [ ] Add bower
+- [x] Add bower
 - [ ] Add .jshintrc
