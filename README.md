@@ -17,3 +17,4 @@ Run `npm install` then go `gulp`
 - [ ] Test `Gulp` tasks
 - [x] Add bower
 - [ ] Add .jshintrc
+- [ ] Use [this pattern](https://github.com/johnpapa/angular-styleguide#resolving-promises-for-a-controller) to get data from AJAX

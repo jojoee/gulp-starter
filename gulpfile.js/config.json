@@ -1,9 +1,51 @@
 {
   "tasks": {
+    "clean": {
+      "dest": "dist/*"
+    },
+
+    "img": {
+      "src": "src/img/*",
+      "opt": {
+        "optimizationLevel": 5
+      },
+      "dest": "dist/img",
+      "browserSyncOpt": {
+        "once": true
+      }
+    },
+
+    "js": {
+      "src": "src/js/*.js",
+      "buildFile": "main.min.js",
+      "dest": "dist/js"
+    },
+
+    "coffee": {
+      "src": "src/coffee/*.coffee",
+      "buildFile": "main.min.js",
+      "dest": "dist/js"
+    },
+
+    "jade": {
+      "src": "src/jade/*.jade",
+      "dest": "dist",
+      "browserSyncOpt": {
+        "once": true
+      }
+    },
+
+    "less": {
+      "src": "src/less/*.less",
+      "dest": "src/css",
+      "browserSyncOpt": {
+        "once": true
+      }
+    },
 
     "sass": {
-      "src": "app/scss/*.scss",
-      "dest": "app/css",
+      "src": "src/scss/*.scss",
+      "dest": "src/css",
       "opt": {
         "sourceComments": false,
         "outputStyle": "expanded"
@@ -15,12 +57,14 @@
 
     "serve": {
       "watch": {
-        "html": "app/index.html",
-        "js": "app/js/*.js",
-        "sass": "app/scss/*.scss"
+        "html": "src/index.html",
+        "js": "src/js/*.js",
+        "jade": "src/*.jade",
+        "less": "src/less/*.less",
+        "sass": "src/scss/*.scss"
       },
       "browserSyncInit": {
-        "server": "app",
+        "server": "src",
         "open": true
       }
     }

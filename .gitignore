@@ -4,10 +4,15 @@ components
 
 # backup and note
 bk
-README2.md
+README*.md
 
-# tested file
+# tested and built file
 app/css
+dist/
 
-# design
+# image and design
 *.psd
+*.jpg
+*.jpeg
+*.png
+*.gif

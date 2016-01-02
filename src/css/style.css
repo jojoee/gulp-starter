@@ -1,0 +1,40 @@
+body {
+  font-family: monospace, sans-serif;
+  background-color: #fff;
+  font-size: 100%;
+}
+p {
+  color: #7EA2B8;
+  margin-top: -1em;
+}
+.wrapper {
+  text-align: center;
+  margin-top: 15em;
+}
+.wrapper .title {
+  color: #03B48D;
+  font-weight: bold;
+  font-size: 4em;
+}
+.test-box {
+  color: #7EA2B8;
+  text-align: center;
+}
+.test-box .less:after {
+  content: 'less compile: ok';
+  color: #03B48D;
+}
+.test-box .sass:after {
+  content: 'sass compile: -';
+}
+.test-box .compass:after {
+  content: 'compass compile: -';
+}
+/* test autoprefixer */
+.autoprefixer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
