@@ -70,7 +70,7 @@ gulp.task('js', function() {
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'))
     .pipe(concat(config.buildFile))
-    .pipe(uglify())
+    .pipe(uglify(config.uglifyOpt))
     .pipe(gzip())
     .pipe(gulp.dest(config.dest));
 });
