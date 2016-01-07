@@ -8,7 +8,8 @@ README*.md
 
 # tested and built file
 src/css
-dist/
+dist/*
+!dist/.gitkeep
 
 # image and design
 *.psd
