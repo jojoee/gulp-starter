@@ -7,7 +7,7 @@ bk
 README*.md
 
 # tested and built file
-app/css
+src/css
 dist/
 
 # image and design
