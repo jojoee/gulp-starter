@@ -62,7 +62,7 @@
 
     "serve": {
       "watch": {
-        "html": "src/index.html",
+        "html": "src/*.html",
         "js": "src/js/*.js",
         "jade": "src/*.jade",
         "less": "src/less/*.less",
