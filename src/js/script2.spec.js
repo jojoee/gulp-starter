@@ -13,6 +13,7 @@ describe('A suite', function() {
 */
 
 /* mocha, sinon, chai */
+/*
 describe('A suite', function() {
   it('contains spec with an expectation', function() {
     expect(true).to.be.true;
@@ -23,3 +24,4 @@ describe('A suite', function() {
     expect(add3(2, 4)).to.equal(9);
   });
 });
+*/
