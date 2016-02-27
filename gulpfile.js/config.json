@@ -23,6 +23,9 @@
         "compress": {
           "drop_console": true
         }
+      },
+      "browserSyncOpt": {
+        "once": true
       }
     },
 
@@ -34,7 +37,7 @@
 
     "jade": {
       "src": "src/jade/*.jade",
-      "dest": "dist",
+      "dest": "dist/",
       "browserSyncOpt": {
         "once": true
       }
@@ -42,7 +45,7 @@
 
     "less": {
       "src": "src/less/*.less",
-      "dest": "src/css",
+      "dest": "dist/css",
       "browserSyncOpt": {
         "once": true
       }
@@ -50,7 +53,7 @@
 
     "sass": {
       "src": "src/scss/*.scss",
-      "dest": "src/css",
+      "dest": "dist/css",
       "opt": {
         "sourceComments": false,
         "outputStyle": "expanded"
@@ -64,12 +67,12 @@
       "watch": {
         "html": "src/*.html",
         "js": "src/js/*.js",
-        "jade": "src/*.jade",
+        "jade": "src/jade/*.jade",
         "less": "src/less/*.less",
         "sass": "src/scss/*.scss"
       },
       "browserSyncInit": {
-        "server": "src",
+        "server": "dist",
         "open": true
       }
     }

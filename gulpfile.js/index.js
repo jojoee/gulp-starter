@@ -71,8 +71,9 @@ gulp.task('js', function() {
     .pipe(jshint.reporter('jshint-stylish'))
     .pipe(concat(config.buildFile))
     .pipe(uglify(config.uglifyOpt))
-    .pipe(gzip())
-    .pipe(gulp.dest(config.dest));
+    // .pipe(gzip())
+    .pipe(gulp.dest(config.dest))
+    .pipe(browserSync.stream(config.browserSyncOpt));
 });
 
 // unused
@@ -123,7 +124,6 @@ gulp.task('sass', function() {
     .pipe(browserSync.stream(config.browserSyncOpt));
 });
 
-// unused
 gulp.task('jade', function () {
   var config = globalConfig.tasks.jade;
 
@@ -137,11 +137,12 @@ gulp.task('serve', ['sass'], function() {
   var config = globalConfig.tasks.serve;
 
   browserSync.init(config.browserSyncInit);
-  gulp.watch(config.watch.html).on('change', browserSync.reload);
-  gulp.watch(config.watch.js).on('change', browserSync.reload);
+  // gulp.watch(config.watch.html).on('change', browserSync.reload);
+  // gulp.watch(config.watch.js).on('change', browserSync.reload);
   
-  // gulp.watch(config.watch.jade, ['jade']);
-  // gulp.watch(config.watch.less, ['less']);
+  gulp.watch(config.watch.js, ['js']);
+  gulp.watch(config.watch.jade, ['jade']);
+  gulp.watch(config.watch.less, ['less']);
   gulp.watch(config.watch.sass, ['sass']);  
 });
 
