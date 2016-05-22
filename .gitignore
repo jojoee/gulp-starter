@@ -1,19 +1,17 @@
 # dependency
-node_modules
-components
+node_modules/
+bower_components/
 
-# backup and note
+# backup
 bk
+bk*
 README*.md
+!README-*.md
+images-bk
+assets-bk
 
-# tested and built file
-src/css
-dist/*
-!dist/.gitkeep
+# test
+test
 
-# image and design
+# graphic
 *.psd
-*.jpg
-*.jpeg
-*.png
-*.gif
