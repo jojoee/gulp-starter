@@ -9,7 +9,6 @@ var autoprefixer  = require('gulp-autoprefixer');
  # HELPER
  ================================================================*/
 
-// unused
 function handleError(err) {
   var msg = 'Error: ' + err.message;
 
