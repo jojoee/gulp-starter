@@ -1,8 +1,8 @@
-# dependency
+# Dependency
 node_modules/
 bower_components/
 
-# backup
+# Backup
 bk
 bk*
 README*.md
@@ -10,8 +10,9 @@ README*.md
 images-bk
 assets-bk
 
-# test
-test
+# Compiled
+css/style.css
+css/style.css.map
 
-# graphic
+# Graphic
 *.psd

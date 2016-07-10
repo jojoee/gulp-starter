@@ -1,9 +1,18 @@
 # Gulp Starter
 
-(simple) Gulp for (simple) project
-
 ## Getting Started
+1. Set path (e.g. `cd C:\xampp\htdocs\jojoee.com\simple-gulp`)
+2. Install global: `npm install -g bower gulp`
+3. Install dependencies: `bower install && npm install`
+4. Start: `gulp`
 
-1. `npm install`
-2. `bower install`
-3. `gulp
+## Branchs
+- `master`: Using `simple` branch
+- `simple`: Simple gulp (`sass` + `js` + `mocha`)
+- `ES6`: (In progress)
+- `steam`: (In progress)
+
+## TODO
+- [x] Add `Sass` task
+- [x] Testing with `mocha`
+- [ ] Inject compliled `css` without refresh

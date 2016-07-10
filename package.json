@@ -25,17 +25,18 @@
   "homepage": "https://github.com/jojoee/gulp-starter#readme",
   "devDependencies": {
     "browser-sync": "^2.10.1",
+    "chai": "^3.5.0",
     "gulp": "^3.9.0",
-    "gulp-notify": "^2.2.0"
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "mocha": "^2.5.3"
   },
   "scripts": {
-    "postinstall": "bower install",
-
-    "pretest": "bower install && npm install",
-    "test": "karma start karma.conf.js",
-    "test-single-run": "karma start karma.conf.js  --single-run",
-
     "prestart": "bower install && npm install",
-    "start": "gulp default"
+    "start": "gulp default",
+    "test": "mocha test --reporter spec --recursive",
+    "test.watch": "mocha test --reporter spec --recursive --watch"
   }
 }
