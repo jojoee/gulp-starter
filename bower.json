@@ -3,7 +3,7 @@
   "description": "Simple gulp to make frontend life easier (gulp for static site builder)",
   "main": "",
   "authors": [
-    "Nathachai Thongniran"
+    "Nathachai Thongniran <inid3a@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [

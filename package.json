@@ -17,7 +17,7 @@
     "static",
     "builder"
   ],
-  "author": "Nathachai Thongniran",
+  "author": "Nathachai Thongniran <inid3a@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jojoee/gulp-starter/issues"
