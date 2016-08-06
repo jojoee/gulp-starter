@@ -1,4 +1,5 @@
 # Gulp Starter
+[![Build Status](https://travis-ci.org/jojoee/gulp-starter.svg)](https://travis-ci.org/jojoee/gulp-starter)
 
 ## Getting Started
 1. Set path (e.g. `cd C:\xampp\htdocs\jojoee.com\simple-gulp`)
