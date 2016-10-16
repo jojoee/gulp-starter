@@ -7,13 +7,8 @@
 3. Install dependencies: `bower install && npm install`
 4. Start: `gulp`
 
-## Branchs
-- `master`: Using `simple` branch
-- `simple`: Simple gulp (`sass` + `js` + `mocha`)
-- `ES6`: (In progress)
-- `steam`: (In progress)
-
 ## TODO
 - [x] Add `Sass` task
 - [x] Testing with `mocha`
 - [ ] Inject compliled `css` without refresh
+- [ ] Fix `Travis CI`
