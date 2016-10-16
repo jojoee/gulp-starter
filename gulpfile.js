@@ -54,4 +54,6 @@ gulp.task('serve', function() {
   gulp.watch('./index.html', { interval: 500 }).on('change', browserSync.reload);
 });
 
-gulp.task('default', ['serve']);
+gulp.task('build', ['sass']);
+gulp.task('watch', ['serve']);
+gulp.task('default', ['build']);

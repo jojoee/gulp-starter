@@ -12,3 +12,4 @@
 - [x] Testing with `mocha`
 - [ ] Inject compliled `css` without refresh
 - [ ] Fix `Travis CI`
+- [ ] Add UI automated testing (e.g. [Zombie.js](https://github.com/assaf/zombie), [Nightwatch](https://github.com/nightwatchjs/nightwatch))
