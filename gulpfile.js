@@ -56,4 +56,4 @@ gulp.task('serve', function() {
 
 gulp.task('build', ['sass']);
 gulp.task('watch', ['serve']);
-gulp.task('default', ['build']);
+gulp.task('default', ['watch']);
