@@ -30,8 +30,6 @@
     "tests"
   ],
   "dependencies": {
-    "faker": "Faker#~3.0.1",
-    "moment": "~2.11.1",
-    "lodash": "~3.10.1"
+    
   }
 }
