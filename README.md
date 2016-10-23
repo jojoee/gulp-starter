@@ -3,7 +3,7 @@
 
 ## Getting Started
 1. Set path (e.g. `cd C:\xampp\htdocs\jojoee.com\simple-gulp`)
-2. Install global: `npm install -g bower gulp`
+2. Install global: `npm install -g bower gulp browser-sync`
 3. Install dependencies: `bower install && npm install`
 4. Start: `gulp`
 
