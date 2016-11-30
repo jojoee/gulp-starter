@@ -1,0 +1,57 @@
+{
+  "name": "gulp-starter",
+  "description": "Simple gulp for making Frontend life easier",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jojoee/gulp-starter.git"
+  },
+  "keywords": [
+    "gulp",
+    "starter",
+    "boilerplate",
+    "simple",
+    "easy",
+    "frontend",
+    "template",
+    "static",
+    "builder"
+  ],
+  "author": "Nathachai Thongniran <inid3a@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jojoee/gulp-starter/issues"
+  },
+  "homepage": "https://github.com/jojoee/gulp-starter#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "browserify": "^13.1.0",
+    "chai": "^3.5.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-header": "^1.8.8",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-less": "^3.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-obfuscate": "^0.2.9",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "lodash.assign": "^4.2.0",
+    "mocha": "^2.5.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "prestart": "bower install && npm install",
+    "start": "gulp default",
+    "test": "mocha test --reporter spec --recursive",
+    "test.watch": "mocha test --reporter spec --recursive --watch"
+  }
+}

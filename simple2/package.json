@@ -1,7 +1,6 @@
 {
   "name": "gulp-starter",
-  "version": "2.0.0",
-  "description": "Simple gulp to make frontend life easier (gulp for static site builder)",
+  "description": "Simple gulp for making Frontend life easier",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jojoee/gulp-starter.git"
@@ -28,9 +27,15 @@
     "chai": "^3.5.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.2",
     "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
     "mocha": "^2.5.3"
   },
   "scripts": {

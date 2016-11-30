@@ -1,0 +1,35 @@
+{
+  "name": "gulp-starter",
+  "description": "Simple gulp for making Frontend life easier",
+  "main": "",
+  "authors": [
+    "Nathachai Thongniran <inid3a@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "starter",
+    "boilerplate",
+    "simple",
+    "easy",
+    "frontend",
+    "template",
+    "static",
+    "builder"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    
+  }
+}

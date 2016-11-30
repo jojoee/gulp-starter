@@ -1,6 +1,6 @@
 {
   "name": "gulp-starter",
-  "description": "Simple gulp to make frontend life easier (gulp for static site builder)",
+  "description": "Simple gulp for making Frontend life easier",
   "main": "",
   "authors": [
     "Nathachai Thongniran <inid3a@gmail.com>"

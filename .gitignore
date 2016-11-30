@@ -10,9 +10,5 @@ README*.md
 images-bk
 assets-bk
 
-# Compiled
-css/style.css
-css/style.css.map
-
 # Graphic
 *.psd
