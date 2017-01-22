@@ -49,8 +49,8 @@
     "watchify": "^3.7.0"
   },
   "scripts": {
-    "prestart": "bower install && npm install",
-    "start": "gulp default",
+    "build": "gulp",
+    "build.watch": "gulp && gulp watch",
     "test": "mocha test --reporter spec --recursive",
     "test.watch": "mocha test --reporter spec --recursive --watch"
   }

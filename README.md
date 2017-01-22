@@ -3,7 +3,7 @@
 
 ## Getting Started
 1. Install [Node.js](https://nodejs.org/)
-2. Install global: `npm install -g bower gulp browser-sync`
+2. Install global: `npm install -g yarn bower`
 3. Set path (e.g. `cd C:\xampp\htdocs\jojoee.com\simple-gulp`)
 4. Go to project: (e.g. `cd simple`)
 5. Install dependencies: `bower install && npm install`
@@ -24,20 +24,21 @@
 - [ ] Implement [JSCS](http://jscs.info/)
 
 ```
-Start: `gulp` or `gulp watch`
+Start: `npm run build` or `npm run build.watch`
 Test: `npm run test` or `npm run test.watch`
 ```
 
 ### php
-- [ ] PHP
+- [x] PHP
 - [ ] Inject compliled `css` without refresh
+- [ ] Implement `phpcs` and add it into `travis`
 
 ```
 Need to
 - Setup PHP server
 - Setup proxy in `gulpfile.js`
 
-Start: `gulp`
+Start: `npm run build.watch`
 ```
 
 ### simple
@@ -47,7 +48,7 @@ Start: `gulp`
 - [ ] Add UI automated testing (e.g. [Zombie.js](https://github.com/assaf/zombie), [Nightwatch](https://github.com/nightwatchjs/nightwatch))
 
 ```
-Start: `gulp` or `gulp watch`
+Start: `npm run build` or `npm run build.watch`
 Test: `npm run test` or `npm run test.watch`
 ```
 
@@ -59,3 +60,9 @@ Test: `npm run test` or `npm run test.watch`
 - [x] Concat
 - [ ] Inject compliled `css` without refresh
 - [ ] Add UI automated testing (e.g. [Zombie.js](https://github.com/assaf/zombie), [Nightwatch](https://github.com/nightwatchjs/nightwatch))
+
+```
+Start: `npm run build` or `npm run build.watch`
+Test: `npm run test` or `npm run test.watch`
+```
+

@@ -27,7 +27,6 @@
     "gulp": "^3.9.1"
   },
   "scripts": {
-    "prestart": "bower install && npm install",
-    "start": "gulp default"
+    "build.watch": "gulp watch"
   }
 }
