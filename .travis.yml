@@ -21,6 +21,10 @@ env:
 before_script:
   - npm prune
 script:
-  - cd $BROWSERIFY_DIR && yarn && bower install && npm run build && npm run test
-  - cd $SIMPLE_DIR && yarn && bower install && npm run build && npm run test
+  - cd $BROWSERIFY_DIR
+  - yarn && bower install && npm run build && npm run test
+  - cd ..
+  - cd $SIMPLE_DIR
+  - yarn && bower install && npm run build && npm run test
+  - cd ..
   - cd $SIMPLE2_DIR && yarn && bower install && npm run build && npm run test
