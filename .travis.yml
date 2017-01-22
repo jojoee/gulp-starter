@@ -14,17 +14,7 @@ branches:
 install:
   - npm install -g npm@latest
   - npm install -g yarn bower
-env:
-  - BROWSERIFY_DIR=browserify
-  - SIMPLE_DIR=simple
-  - SIMPLE2_DIR=simple2
 before_script:
   - npm prune
 script:
-  - cd $BROWSERIFY_DIR
-  - yarn && bower install && npm run build && npm run test
-  - cd ..
-  - cd $SIMPLE_DIR
-  - yarn && bower install && npm run build && npm run test
-  - cd ..
-  - cd $SIMPLE2_DIR && yarn && bower install && npm run build && npm run test
+  - build.sh
