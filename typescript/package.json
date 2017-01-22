@@ -1,0 +1,40 @@
+{
+  "name": "gulp-starter",
+  "description": "Simple gulp for making Frontend life easier",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jojoee/gulp-starter.git"
+  },
+  "keywords": [
+    "gulp",
+    "starter",
+    "boilerplate",
+    "simple",
+    "easy",
+    "frontend",
+    "template",
+    "static",
+    "builder"
+  ],
+  "author": "Nathachai Thongniran <inid3a@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jojoee/gulp-starter/issues"
+  },
+  "homepage": "https://github.com/jojoee/gulp-starter#readme",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-typescript": "^3.1.3"
+  },
+  "scripts": {
+    "build": "gulp",
+    "build.watch": "gulp && gulp watch",
+    "test": "",
+    "test.watch": ""
+  }
+}
