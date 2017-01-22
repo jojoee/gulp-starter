@@ -1,0 +1,26 @@
+sudo: false
+language: node_js
+node_js:
+  - "6"
+  - "6.1"
+cache:
+  yarn: true
+  directories:
+    - bower_components
+    - node_modules
+branches:
+  only:
+    - master
+install:
+  - npm install -g npm@latest
+  - npm install -g yarn bower
+env:
+  - BROWSERIFY_DIR=browserify
+  - SIMPLE_DIR=simple
+  - SIMPLE2_DIR=simple2
+before_script:
+  - npm prune
+script:
+  - cd $BROWSERIFY_DIR && yarn && bower install && npm run build && npm run test
+  - cd $SIMPLE_DIR && yarn && bower install && npm run build && npm run test
+  - cd $SIMPLE2_DIR && yarn && bower install && npm run build && npm run test
