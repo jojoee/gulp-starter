@@ -10,5 +10,10 @@ README*.md
 images-bk
 assets-bk
 
+# Compiled
+browserify/dist
+simple/css
+simple2/dist
+
 # Graphic
 *.psd
