@@ -17,4 +17,4 @@ install:
 before_script:
   - npm prune
 script:
-  - build.sh
+  - ./build.sh
