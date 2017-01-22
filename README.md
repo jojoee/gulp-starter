@@ -66,3 +66,18 @@ Start: `npm run build` or `npm run build.watch`
 Test: `npm run test` or `npm run test.watch`
 ```
 
+### typescript
+- [x] TypeScript
+- [ ] Testing
+- [ ] Css preprocessor
+- [ ] `tsconfig.json`
+- [ ] `tslint.json`
+
+```
+Start: `npm run build` or `npm run build.watch`
+Test: `npm run test` or `npm run test.watch`
+
+Other
+- `npm install -g typescript`
+- `tsc js/main.ts`
+```
