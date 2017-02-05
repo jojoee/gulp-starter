@@ -17,6 +17,7 @@
 - [x] Less
 - [x] ES6
 - [x] Testing with `mocha`
+- [x] Browsersync
 - [ ] Inject compliled `css` without refresh
 - [ ] Add UI automated testing (e.g. [Zombie.js](https://github.com/assaf/zombie), [Nightwatch](https://github.com/nightwatchjs/nightwatch))
 - [ ] Implement [Shields.io](http://shields.io/)
@@ -30,6 +31,7 @@ Test: `npm run test` or `npm run test.watch`
 
 ### php
 - [x] PHP
+- [x] Browsersync
 - [ ] Inject compliled `css` without refresh
 - [ ] Implement `phpcs` and add it into `travis`
 
@@ -44,6 +46,7 @@ Start: `npm run build.watch`
 ### simple
 - [x] Sass
 - [x] Testing with `mocha`
+- [x] Browsersync
 - [ ] Inject compliled `css` without refresh
 - [ ] Add UI automated testing (e.g. [Zombie.js](https://github.com/assaf/zombie), [Nightwatch](https://github.com/nightwatchjs/nightwatch))
 
@@ -55,6 +58,7 @@ Test: `npm run test` or `npm run test.watch`
 ### simple2
 - [x] Sass
 - [x] Testing with `mocha`
+- [x] Browsersync
 - [x] JSHint
 - [x] Uglify
 - [x] Concat
@@ -68,6 +72,7 @@ Test: `npm run test` or `npm run test.watch`
 
 ### typescript
 - [x] TypeScript
+- [x] Browsersync
 - [ ] Testing
 - [ ] Css preprocessor
 - [ ] `tsconfig.json`
