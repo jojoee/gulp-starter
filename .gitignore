@@ -3,12 +3,7 @@ node_modules/
 bower_components/
 
 # Backup
-bk
 bk*
-README*.md
-!README-*.md
-images-bk
-assets-bk
 
 # Compiled
 browserify/dist
@@ -18,3 +13,6 @@ typescript/js
 
 # Graphic
 *.psd
+
+# Others
+yarn.lock
