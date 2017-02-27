@@ -4,7 +4,7 @@
 ## Getting Started
 1. Install [Node.js](https://nodejs.org/)
 2. Install global: `npm install -g yarn bower`
-3. Set path (e.g. `cd C:\xampp\htdocs\jojoee.com\simple-gulp`)
+3. Set path (e.g. `cd C:\xampp\htdocs\jojoee.com\gulp-starter`)
 4. Go to project: (e.g. `cd simple`)
 5. Install dependencies: `bower install && npm install`
 
