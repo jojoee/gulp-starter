@@ -1,5 +1,5 @@
 # Gulp Starter
-[![Build Status](https://travis-ci.org/jojoee/gulp-starter.svg)](https://travis-ci.org/jojoee/gulp-starter)
+[![Build Status](https://travis-ci.org/jojoee/gulp-starter.svg)](https://travis-ci.org/jojoee/gulp-starter) [![Greenkeeper badge](https://badges.greenkeeper.io/jojoee/gulp-starter.svg)](https://greenkeeper.io/)
 
 ## Getting Started
 1. Install [Node.js](https://nodejs.org/)
