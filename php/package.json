@@ -24,7 +24,7 @@
   "homepage": "https://github.com/jojoee/gulp-starter#readme",
   "devDependencies": {
     "browser-sync": "^2.14.0",
-    "gulp": "^3.9.1"
+    "gulp": "^4.0.0"
   },
   "scripts": {
     "build.watch": "gulp watch"

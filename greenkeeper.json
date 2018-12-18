@@ -1,0 +1,13 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "browserify/package.json",
+        "php/package.json",
+        "simple/package.json",
+        "simple2/package.json",
+        "typescript/package.json"
+      ]
+    }
+  }
+}
